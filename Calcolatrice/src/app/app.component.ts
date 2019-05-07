@@ -16,25 +16,24 @@ export class AppComponent {
   this.myform = fb.group({
     'a': ['', Validators.required],
     'b': ['', Validators.required],
+})
 
 
 
-  })
-  }
 
 
-  /*onSum {
+  onSum {
     if(!this.myform.invalid){
-      this.ris= Number(this.myform.controls['a'])+
-      Number(this.myform.controls['b']);
-      this.valori=new Number();
+      this.ris= Number(this.myform.controls['a'])+Number(this.myform.controls['b']);
+      this.valori=new Numeri();
        this.valori.a = Number(this.myform.controls['a']);
       this.valori.b = Number(this.myform.controls['b']);
 
 
+    }
 
   }}
-  */
 
-}
+
+
 

@@ -11,14 +11,14 @@ import {  FormBuilder,
 })
 export class RisComponent implements OnInit {
 myform : FormGroup;
-@Input() v: Number;
-  /*constructor(fb: FormBuilder) {
+@Input() v: Numeri;
+  constructor(fb: FormBuilder) {
 
     this.myform = fb.group({'email':['',Validators.required[Validators.email]]})
   }
 onDubmit(){
   console.log("invio email" + this.myform.controls['email']+"ol risultato é " + v.a + "e"+ v.b)
-}*/
+}
 
   ngOnInit() {
   }
